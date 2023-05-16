@@ -1,6 +1,7 @@
 import React from "react";
 
-function About() {
+function About(props) {
+  const { props } = user
   return (
     <div id="about">
       <h2>About Me</h2>
